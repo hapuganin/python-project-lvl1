@@ -16,7 +16,7 @@ def gcd_start():
     for i in range(3):
         number1 = random.randint(MIN_NUMBER, MAX_NUMBER)
         number2 = random.randint(MIN_NUMBER, MAX_NUMBER)
-        text_question = f'{number1}  {number2}'
+        text_question = f'{number1} {number2}'
         correct_answer = str(math.gcd(number1, number2))
 
         if not logic.game_step(text_question, correct_answer):
